@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PruebaAndroid</string>
+    <string name="title_new_task">New Task</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_query">Query</string>
+
+
+    <string name="initial_login">Log In</string>
+    <string name="initial_signup">Sign Up</string>
+
+    <string name="register_name">Name</string>
+    <string name="register_lastName">LastName</string>
+    <string name="register_password">Password</string>
+
+    <string name="register_title">Sign Up</string>
+
+    <string name="login_userid">UserID</string>
+    <string name="login_password">Password</string>
+
+    <string name="new_task_hours">Hours</string>
+    <string name="new_task_description">Description</string>
+
+    <string name="new_task_save">Save</string>
+
+    <string name="new_task_clean">Clean</string>
+
+
+    <string name="new_task_title">New Task</string>
+
+
+    <string name="tasks_title">Technician Tasks</string>
+
+
+    <string name="register_save">Save</string>
+
+    <string name="register_cancel">Cancel</string>
+
+    <string name="login_msg1">Access Deny</string>
+    <string name="login_msg2">Verify User or Password</string>
+
+    <string name="newtask_msg1">Complete all the fields</string>
+    <string name="newtask_msg2">Nobody has the type task selected.</string>
+
+    <string name="query_msg1">Connection failed</string>
+
+    <string name="query_loading">Loading data...</string>
+
+
+    <string name="action_favorite">log out</string>
+
+
+    <string name="query_title">Query</string>
+    <string name="query_category">Category</string>
+    <string name="query_item">Item</string>
+    <string name="query_search">Search</string>
+    <string name="query_searchall">Search All</string>
+
+
+
+
+</resources>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PruebaAndroid</string>
+    <string name="title_new_task">Nueva Tarea</string>
+    <string name="title_tasks">Tareas</string>
+    <string name="title_query">Consulta</string>
+
+
+    <string name="initial_login">Iniciar Sesión</string>
+    <string name="initial_signup">Registrarse</string>
+
+    <string name="register_name">Nombre</string>
+    <string name="register_lastName">Apellido</string>
+    <string name="register_password">Contraseña</string>
+
+    <string name="register_title">Registrarse</string>
+
+    <string name="login_userid">UserID</string>
+    <string name="login_password">Contraseña</string>
+
+    <string name="new_task_hours">Horas</string>
+    <string name="new_task_description">Descripción</string>
+
+    <string name="new_task_save">Guardar</string>
+
+    <string name="new_task_clean">Limpiar</string>
+
+
+    <string name="new_task_title">Nueva Tarea</string>
+
+
+    <string name="tasks_title">Tareas de Técnicos</string>
+
+
+    <string name="register_save">Guardar</string>
+
+    <string name="register_cancel">Cancelar</string>
+
+    <string name="login_msg1">Acceso Denegado</string>
+    <string name="login_msg2">Verificar Usuario o Contraseña</string>
+
+    <string name="newtask_msg1">Completa todos los campos.</string>
+    <string name="newtask_msg2">Nadie tiene el tipo de tarea seleccionada.</string>
+
+    <string name="query_msg1">Conexion Fallida</string>
+
+    <string name="query_loading">Cargando Información...</string>
+
+
+    <string name="action_favorite">Cerrar Sesión</string>
+
+
+    <string name="query_title">Consulta</string>
+    <string name="query_category">Categoría</string>
+    <string name="query_item">Elemento</string>
+    <string name="query_search">Buscar</string>
+    <string name="query_searchall">Buscar Todo</string>
+
+
+
+
+</resources>

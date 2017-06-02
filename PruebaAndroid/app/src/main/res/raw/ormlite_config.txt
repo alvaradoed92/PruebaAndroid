@@ -1,0 +1,209 @@
+#
+# generated on 2017/06/02 09:53:22
+#
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.Farmer
+tableName=farmer
+# --table-fields-start--
+# --field-start--
+fieldName=farmerId
+id=true
+# --field-end--
+# --field-start--
+fieldName=zipcode
+# --field-end--
+# --field-start--
+fieldName=location1
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=business
+# --field-end--
+# --field-start--
+fieldName=farmName
+# --field-end--
+# --field-start--
+fieldName=phone1
+columnName=phone
+# --field-end--
+# --field-start--
+fieldName=url
+columnName=url
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.Category
+tableName=category
+# --table-fields-start--
+# --field-start--
+fieldName=CategoryId
+id=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.Item
+tableName=item
+# --table-fields-start--
+# --field-start--
+fieldName=ItemId
+id=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.LinkItem
+tableName=linkitem
+# --table-fields-start--
+# --field-start--
+fieldName=Farmer
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=Category
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=Item
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.Location1
+tableName=location1
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=userId
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=lastName
+# --field-end--
+# --field-start--
+fieldName=password
+# --field-end--
+# --field-start--
+fieldName=userType
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.Task
+tableName=task
+# --table-fields-start--
+# --field-start--
+fieldName=taskId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=hours
+# --field-end--
+# --field-start--
+fieldName=taskType
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.TaskType
+tableName=tasktype
+# --table-fields-start--
+# --field-start--
+fieldName=taskTypeId
+id=true
+# --field-end--
+# --field-start--
+fieldName=taskName
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.UserTasks
+tableName=usertasks
+# --table-fields-start--
+# --field-start--
+fieldName=user
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=task
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=completed
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.UserType
+tableName=usertype
+# --table-fields-start--
+# --field-start--
+fieldName=userTypeId
+id=true
+# --field-end--
+# --field-start--
+fieldName=userTypeName
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.alvarado.edwin.pruebaandroid.Modelo.POJO.UserTaskTypes
+tableName=usertasktypes
+# --table-fields-start--
+# --field-start--
+fieldName=user
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=taskType
+canBeNull=false
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_percent="0.4"
+        android:orientation="horizontal"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/login_password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="@dimen/big_text_size"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:id="@+id/etPassword" />
+
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/login_userid"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="@dimen/big_text_size"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/etPassword" />
+
+    <com.alvarado.edwin.pruebaandroid.info.hoang8f.widget.FButton
+        android:id="@+id/fblogin"
+        android:layout_width="@dimen/button_mid_width"
+        android:layout_height="@dimen/button_mid_height"
+        android:text="@string/initial_login"
+        android:textSize="@dimen/big_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:buttonColor="@color/fbutton_color_midnight_blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.16000003" />
+
+
+</android.support.constraint.ConstraintLayout>
